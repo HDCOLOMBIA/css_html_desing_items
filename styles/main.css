@@ -1,7 +1,8 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: re;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+    grid-template-rows: minmax(20px, auto);
 }
 
 .grid div {
